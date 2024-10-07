@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/balik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_arrow_back"
+        />
+
+    <TextView
+        android:id="@+id/iknip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/balik"
+        android:layout_marginLeft="42dp"
+        android:textStyle="normal"
+        android:textSize="16sp"
+        android:text="_iknip" />
+
+    <ImageView
+        android:id="@+id/bell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_bell"
+        android:layout_alignEnd="@+id/titik_tiga"
+        android:layout_marginEnd="40dp"
+        />
+
+    <ImageView
+        android:id="@+id/titik_tiga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_titik_tiga" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/profile_login"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/iknip"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/pp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="6956" />"
+
+    </LinearLayout>
+
+
+</RelativeLayout>
